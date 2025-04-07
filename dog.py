@@ -15,9 +15,9 @@ class Dog:
     # Example output:
     # Kingdom: 'kingdom attribute', Name: 'name attribute', Species: 'species attribute', Breed: 'breed attribute'
     def __str__(self):
-        return f"Kingdom: '{self.kingdom}', Name: '{self.name}', Species: {self.species}', Breed: '{self.breed}'"
+        return f"Kingdom: '{self.kingdom}', Name: '{self.name}', Species: {self.species}', Breed: '{self.breed}'" #removed spare comma
     
-    # TODO: Add a method for the dog to make a specific sound. 
+    # TODO: Add a method for the dog to make a specific sound. COMPLETE
     # Call the method `speak` and make it output a specific message like 
     # "The dog barks.
     def speak(self):
