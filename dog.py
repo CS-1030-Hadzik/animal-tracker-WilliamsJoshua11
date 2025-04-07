@@ -10,7 +10,6 @@ class Dog:
         super().__init__(name, species)
         self.breed = breed
 
-    
     # TODO: Override the __str__ method to include the breed.
     # Example output:
     # Kingdom: 'kingdom attribute', Name: 'name attribute', Species: 'species attribute', Breed: 'breed attribute'
