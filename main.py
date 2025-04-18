@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # TODO: Call the method to make a generic animal sound
     print(animalInstanceJonJon.speak())
     # TODO: Create an instance of the Dog class
-    animalInstanceAddy = Animal(name='Addy', species='dog')
+    animalInstanceAddy = Animal(name='Addy', breed='Golden Doodle')
     # TODO: Print the Dog instance
     print(animalInstanceAddy)
     # TODO: Call the method to make the dog-specific sound
